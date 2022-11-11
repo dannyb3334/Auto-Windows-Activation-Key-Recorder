@@ -1,0 +1,1 @@
+Add-Content -Path D:\Keys.txt -Value ((Get-WmiObject -query 'select * from SoftwareLicensingService'). OA3xOriginalProductKey)
